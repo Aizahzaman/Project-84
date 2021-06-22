@@ -43,7 +43,7 @@ function upload_c2() {
 
 window.addEventListener("keydown",Keydown);
 
-function Keydow(e){
+function Keydown(e){
     var buttoncode=e.keyCode;
     console.log(buttoncode);
     if (buttoncode=="38"){
@@ -76,6 +76,7 @@ function up(){
         car1_y=car1_y-10;
         upload_bg();
         upload_c1();
+        upload_c2();
     }
 }
 function down(){
@@ -83,6 +84,7 @@ function down(){
         car1_y=car1_y+10;
         upload_bg();
         upload_c1();
+        upload_c2();
     }
 }
 function left(){
@@ -90,6 +92,7 @@ function left(){
         car1_x=car1_x-10;
         upload_bg();
         upload_c1();
+        upload_c2();
     }
 }
 function right(){
@@ -97,6 +100,7 @@ function right(){
         car1_x=car1_x+10;
         upload_bg();
         upload_c1();
+        upload_c2();
     }
 }
 
@@ -105,6 +109,7 @@ function up2(){
         car2_y=car2_y-10;
         upload_bg();
         upload_c2();
+        upload_c1();
     }
 }
 function down2(){
@@ -112,6 +117,7 @@ function down2(){
         car2_y=car2_y+10;
         upload_bg();
         upload_c2();
+        upload_c1();
     }
 }
 function left2(){
@@ -119,6 +125,7 @@ function left2(){
         car2_x=car2_x-10;
         upload_bg();
         upload_c2();
+        upload_c1();
     }
 }
 function right2(){
@@ -126,5 +133,6 @@ function right2(){
         car2_x=car2_x+10;
         upload_bg();
         upload_c2();
+        upload_c1();
     }
 }
